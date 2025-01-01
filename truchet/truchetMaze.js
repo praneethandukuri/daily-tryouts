@@ -25,4 +25,6 @@ const printPattern = (HEIGHT, WIDTH) => {
   return pattern;
 };
 
-console.log(printPattern(20, 30));
+console.log(printPattern(10, 20));
+
+export { printPattern, nextChar };
