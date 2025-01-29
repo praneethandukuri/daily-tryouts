@@ -8,7 +8,6 @@ export class Matrix {
       throw new Error("Invalid matrix format");
     }
 
-    // Check if the matrix is empty
     if (data.length === 0 || data[0].length === 0) {
       this.#rows = 0;
       this.#cols = 0;
